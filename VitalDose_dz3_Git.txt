@@ -1,0 +1,230 @@
+VitalDose_dz3
+GitHub
+
+JSON
+ 1. Создать внешний репозиторий c названием JSON. - github.com -> Press button "New" in the top left hand corner -> Write "JSON" in Repository name text field - Press Create Repository
+
+ 2. Клонировать репозиторий JSON на локальный компьютер. - git clone https://github.com/VitalDose/JSON.git
+
+ 3. Внутри локального JSON создать файл “new.json”. - touch new.json
+
+ 4. Добавить файл под гит. - git add new.json
+
+ 5. Закоммитить файл. - git commit -m "some message"
+
+ 6. Отправить файл на внешний GitHub репозиторий. - git push
+
+ 7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+nano new.json
+
+{
+  "ФИО":"Строич Виталий Иллич",
+  "Возраст":21,
+  "Количество домашних животных":0,
+  "Будущая желаемая зарплата":"зависит от моего уровня знаний и умения его показать"
+}
+
+Ctrl+O -> Enter -> Ctrl+X
+
+ 8. Отправить изменения на внешний репозиторий.- git add new.json-> git commit -m "some message" -> git push
+
+ 9. Создать файл preferences.json - touch preferences.json
+
+ 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+nano preferences.json
+{
+  "Любимый фильм":"нету любимого",
+  "Любимый сериал":"Breaking Bad",
+  "Любимая еда":"Большенство фруктов",
+  "Любимое время года":"Весна",
+  "Страна которую хотели бы посетить":"Новая Зеландия"
+}
+
+Ctrl+O -> Enter -> Ctrl+X
+ 11. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON - touch skills.json
+nano skills.json
+{
+   "Skills":"Основы работы с bash,Снифинг http web трафика через Charles и Fiddler,Настройка прокси и vpn на iOS и Android,Управление Android девайсами с помощью ADB и т.д."
+}
+Ctrl+O -> Enter -> Ctrl+X
+
+ 12. Отправить сразу 2 файла на внешний репозиторий. - git add preferences.json skills.json -> git commit -m "some message" -> git push
+
+ 13. На веб интерфейсе создать файл bug_report.json. - add file -> create new file -> Commit new file
+
+ 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе. - нажать Commit changes
+
+ 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON. -press on bug_report.json -> press on pencil image(Edit this file)
+{
+  "Reporter":"Valera Batkovich",
+  "ID":"04879",
+  "Status":"New",
+  "Name":"Button Commit changes doesn't work",
+  "Summary":"After adding new info in file and pressing button commit changes page doesn't update",
+  "STR": {
+    "1.":"Open file in repository",
+    "2.":"Edit the file",
+    "3.":"Press Commit changes button"
+  },
+  "Expected result":"Page updates and redirect user to repository",
+  "Actual result":"Page stays still",
+  "Priority":"1",
+  "Severity":"critical",
+}
+ 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе. - нажать Commit changes
+
+ 17. Синхронизировать внешний и локальный репозиторий JSON - git pull
+
+==================================================================================================================================================================================================
+
+XML
+ 1. Создать внешний репозиторий c названием XML. - github.com -> Press button "New" in the top left hand corner -> Write "XML" in Repository name text field - Press Create Repository
+
+ 2. Клонировать репозиторий XML на локальный компьютер. - git clone https://github.com/VitalDose/XML.git
+
+ 3. Внутри локального XML создать файл “new.xml”. - touch new.xml
+
+ 4. Добавить файл под гит. - git add new.xml
+
+ 5. Закоммитить файл. - git commit -m "some message"
+
+ 6. Отправить файл на внешний GitHub репозиторий. - git push
+
+ 7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+nano new.xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+ <ФИО>Строич Виталий Иллич</ФИО>
+ <Возраст>21</Возраст>
+ <Количество_домашних_животных>0</Количество_домашних_животных>
+ <будущая_желаемая_зарплата>зависит от моего уровня знаний и умения его показать</будущая_желаемая_зарплата>
+</root>
+
+Ctrl+O -> Enter -> Ctrl+X
+
+ 8. Отправить изменения на внешний репозиторий. - git add new.xml-> git commit -m "some message" -> git push
+
+ 9. Создать файл preferences.xml - touch preferences.xml
+
+ 10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+nano preferences.xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+ <Любимый_фильм>нету любимого</Любимый_фильм>
+ <Любимый_сериал>Breaking Bad</Любимый_сериал>
+ <Любимая_еда>Большенство фруктов</Любимая_еда>
+ <Любимое_время_года>Весна</Любимое_время_года>
+ <Страна_которую_хотели_бы_посетить>Новая Зеландия</Страна_которую_хотели_бы_посетить>
+</root>
+
+Ctrl+O -> Enter -> Ctrl+X
+ 11. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML - touch skills.xml
+nano skills.xml
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<Skills>Основы работы с bash,Снифинг http web трафика через Charles и Fiddler,Настройка прокси и vpn на iOS и Android,Управление Android девайсами с помощью ADB и т.д.</Skills>
+
+Ctrl+O -> Enter -> Ctrl+X
+
+ 12. Сделать коммит в одну строку. - git add preferences.xml skills.xml && git commit m- "some message"
+
+ 13. Отправить сразу 2 файла на внешний репозиторий. - git push
+
+ 14. На веб интерфейсе создать файл bug_report.xml. - add file -> create new file -> Commit new file
+
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе. - нажать Commit changes
+
+ 16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML. - press on bug_report.xml -> press on pencil image(Edit this file)
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <Reporter>Valera Batkovich</Reporter>
+  <ID>04879</ID>
+  <Status>New</Status>
+  <Name>Button Commit changes doesn&#x27;t work</Name>
+  <Summary>After adding new info in file and pressing button commit changes page doesn&#x27;t update</Summary>
+  <STR>
+    <1.>Open file in repository</1.>
+    <2.>Edit the file</2.>
+    <3.>Press Commit changes button</3.>
+  </STR>
+  <Priority>1</Priority>
+  <Severity>critical</Severity>
+  <Expected_result>Page updates and redirect user to repository</Expected_result>
+  <Actual_result>Page stays still</Actual_result>
+</root>
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. - нажать Commit changes
+
+ 18. Синхронизировать внешний и локальный репозиторий XML - git pull
+
+==================================================================================================================================================================================================
+TXT
+ 1. Создать внешний репозиторий c названием TXT. - github.com -> Press button "New" in the top left hand corner -> Write "TXT" in Repository name text field - Press Create Repository
+
+ 2. Клонировать репозиторий TXT на локальный компьютер. - git clone https://github.com/VitalDose/TXT.git
+
+ 3. Внутри локального TXT создать файл “new.txt”. - touch new.txt
+
+ 4. Добавить файл под гит. - git add new.txt
+
+ 5. Закоммитить файл. - git commit -m "some message"
+
+ 6. Отправить файл на внешний GitHub репозиторий. - git push
+
+ 7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+nano new.txt
+
+ФИО - Строич Виталий Иллич
+Возраст - 21
+Количество домашних животных - 0
+Будущая желаемая зарплата - завичит от моих знаний и умения их показать
+
+Ctrl+O -> Enter -> Ctrl+X
+ 8. Отправить изменения на внешний репозиторий. - git add new.txt && git commit -m "update" && git push
+
+ 9. Создать файл preferences.txt - touch preferences.txt
+
+ 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+nano preferences.txt
+
+Любимый фильм - нету любимого
+Любимый сериал - Breaking Bad
+Любимая еда - Большенство фруктов
+Любимое время года - Весна
+Страна которую хотели бы посетить - Новая Зеландия
+
+Ctrl+O -> Enter -> Ctrl+X
+ 11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT - touch skills.txt
+nano skills.txt
+
+Skills - Основы работы с bash, Снифинг http web трафика через Charles и Fiddler, Настройка прокси и vpn на iOS и Android, Управление Android девайсами с помощью ADB и т.д.
+
+Ctrl+O -> Enter -> Ctrl+X
+ 12. Сделать коммит в одну строку. - git add preferences.txt skills.txt && git commit m- "some message"
+
+ 13. Отправить сразу 2 файла на внешний репозиторий. - git push
+
+ 14. На веб интерфейсе создать файл bug_report.txt. - add file -> create new file -> Commit new file
+
+ 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе. - нажать Commit changes
+
+ 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT. - press on bug_report.txt -> press on pencil image(Edit this file)
+Reporter : Valera Batkovich
+ID : 04879
+Status : New
+Name : Button Commit changes doesn't work",
+Summary : After adding new info in file and pressing button commit changes page doesn't update",
+STR:
+  1. Open file in repository
+  2. Edit the file
+  3. Press Commit changes button
+Expected result : Page updates and redirect user to repository
+Actual result : Page stays still
+Priority : 1
+Severity : critical
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. - нажать Commit changes
+
+ 18. Синхронизировать внешний и локальный репозиторий TXT - git pull
