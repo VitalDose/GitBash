@@ -57,7 +57,7 @@ Ctrl+C
 
 18. Вывести содержимое файла tf_3.txt в терминал. - cat inner_dir_1/tf_3.txt
 
-19. Найти путь к файлу tf_4.txt - realpath tf_4.txt
+19. Найти путь к файлу tf_4.txt - realpath tf_4.txt or find . -name tf_4.txt
 
 20. Отчистить файл tf_4.txt от содержимого без удаления самого файла. - echo -n > inner_dir_1/tf_4.txt
 
