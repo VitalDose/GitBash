@@ -1,0 +1,84 @@
+VitalDose_dz1.1 
+The first part
+Linux terminal (GitBash) commands
+
+1) Посмотреть где я - pwd
+
+2) Создать папку - mkdir foldername
+
+3) Зайти в папку - cd foldername
+
+4) Создать 3 папки - mkdir foldername1 foldername2 foldername3
+
+5) Зайти в любую папку - cd foldername1
+
+6) Создать 5 файлов (3 txt, 2 json) - touch test.txt netest.txt hz.txt prog.json auto.json
+
+7) Создать 3 папки - mkdir foldername4 foldername5 foldername6
+
+8) Вывести список содержимого папки - ls -la
+
+9) + Открыть любой txt файл - cat test.txt 
+OR - nano test.txt
+
+10) + написать туда что-нибудь, любой текст. - cat >> test.txt
+Right now i write smth dot
+
+OR - nano test.txt
+write smth again dot
+
+11) + сохранить и выйти. - Ctrl+C (if cat >> test.txt) 
+Ctrl+O -> Enter -> Ctrl+X (if nano test.txt)
+
+12) Выйти из папки на уровень выше - cd ..
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. - mv text.txt foldername4/text.txt | mv netest.txt foldername6/netest.txt
+
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. - cp hz.txt foldername5/hz.txt | cp prog.json foldername6/prog.json 
+
+15) Найти файл по имени - find filename
+
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. - tail -f test.txt
+
+17) вывести несколько первых строк из текстового файла - head -n2 longtextfile.txt 
+
+18) вывести несколько последних строк из текстового файла - tail -n2 shorttextfile.txt
+
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает. - less longfile.txt
+
+20) вывести дату и время - date 
+=====================================================================================================================================================================
+
+Задание *
+1. Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request 
+1)curl http://162.55.220.72:5005/terminal-hw-request  
+
+2)curl "http://162.55.220.72:5005/get_method?name=Vitaliy&age=21"
+
+=====================================================================================================================================================================
+
+2. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+
+1)Создание скрипта - nano skript.sh
+
+2)Текст,(или команды, не уверен как правильно) который нужно написать внутри скрипта -
+#!bin/bash
+
+cd papka1
+mkdir lest1 lest2 lest3
+cd lest1
+touch valera.txt dmytro.txt yuriy.txt 4.json 5.json
+mkdir folder1 folder2 folder3
+ls -l
+mv valera.txt folder1/valera.txt | mv dmytro.txt folder2/dmytro.txt
+
+3)Сохранение скрипта - Ctrl+O -> Enter -> Ctrl+X
+
+4)Выполнение скрипта - bash skript.sh
+
+                       OR
+
+                       sudo chmod a+x skript.sh -> Enter -> ./skript.sh 
+
+=====================================================================================================================================================================
