@@ -2,7 +2,7 @@ VitalDose_dz2
 The first part
 Linux terminal (GitBash) commands
 
-1. Сделать папку dir_1 - mkdir_1
+1. Сделать папку dir_1 - mkdir dir_1
 
 2. Зайти в папку dir_1 - cd dir_1
 
